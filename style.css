@@ -7,19 +7,19 @@
   }
   .navbar-nav {
     display: flex;
-    flex-direction: row; /* Horizontal alignment by default */
-    justify-content: center; /* Center align the list items */
-    align-items: center; /* Vertically center the items */
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
   }
   .navbar-collapse.show .navbar-nav {
     text-align: left;
-    flex-direction: column; /* Change to vertical alignment when expanded */
+    flex-direction: column; 
     justify-content: left;
   }
   
   .navbar-collapse.show .nav-logo {
   
-    display: none; /* Hide the image when the toggler is open */
+    display: none; 
   }
   
   
@@ -126,14 +126,14 @@
 
 .footer {
   padding: 10px ;
-  background-color: #121111; /* Dark background */
-  color: #fff; /* Light text */
+  background-color: #121111; 
+  color: #fff; 
 }
 
 .footer h5 {
   font-size: 1.0rem;
   margin-bottom: 1rem;
-  color: #ccc; /* Grey color for headings */
+  color: #ccc;
 }
 
 .footer ul {
@@ -150,17 +150,17 @@
 
 .footer-links li a {
   text-decoration: none;
-  color: #fff; /* White text for links */
-  font-weight: lighter; /* Bold links */
+  color: #fff; 
+  font-weight: lighter; 
 }
 
 .footer-links li a:hover {
-  text-decoration: underline; /* Underline on hover */
+  text-decoration: underline; 
 }
 
 .footer-bottom {
   margin-top: 20px;
-  border-top: 1px solid #444; /* Top border for separation */
+  border-top: 1px solid #444; 
   padding-top: 10px;
 }
 
@@ -176,7 +176,7 @@
 }
 
 .footer-legal li a {
-  color: #fff; /* White text for legal links */
+  color: #fff; 
   font-weight: bold;
   text-decoration: none;
 }
@@ -197,15 +197,15 @@
   font-weight: bold;
   font-size: small;
   color: green;
-  margin-bottom: 0; /* To ensure the text stays on one line */
+  margin-bottom: 0; 
 }
 
 .footer-bottom {
-  padding: 10px 0; /* Minimal padding for the row */
-  font-size: 10px; /* Small font size */
+  padding: 10px 0;
+  font-size: 10px; 
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start; /* Ensure left alignment */
+  justify-content: flex-start; 
   align-items: center;
 }
 
@@ -217,19 +217,19 @@
 .footer-legal {
   list-style: none;
   padding-left: 20px;
-  margin:  15px  ; /* Slight margin between legal links and location */
+  margin:  15px  ;
   display: inline-flex;
-  gap: 15px; /* Control spacing between links */
+  gap: 15px; 
 }
 
 .footer-legal li::after {
   content:  " | " ;
  
-  color: #ccc; /* Light grey divider */
+  color: #ccc; 
 }
 
 .footer-legal li:last-child::after {
-  content: ""; /* Remove divider after the last item */
+  content: "";
 }
 
 .footer-legal li a {
@@ -241,10 +241,10 @@
 
 .footer-location {
   display: inline-block;
-  padding-left: 240px; /* Small spacing from the legal links */
+  padding-left: 240px; 
 }
 .footer-location {
-  font-weight: bold; /* Makes the entire paragraph bold */
+  font-weight: bold;
 }
 .footer-location a {
   text-decoration: none; 
