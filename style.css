@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar{
+    background-color: black;
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: row; /* Horizontal alignment by default */
+    justify-content: center; /* Center align the list items */
+    align-items: center; /* Vertically center the items */
+  }
+  .navbar-collapse.show .navbar-nav {
+    text-align: left;
+    flex-direction: column; /* Change to vertical alignment when expanded */
+    justify-content: left;
+  }
+  
+  .navbar-collapse.show .nav-logo {
+  
+    display: none; /* Hide the image when the toggler is open */
+  }
+  
+  
+  .navbar-toggler {
+    background-color: black;
+  }
+
+  
+  .promo-banner {
+    background-color: rgb(98, 96, 96); 
+    width: 99vw; 
+    padding: 10px ; 
+    margin-top: 50px;
+  }
+  
+  .promo-content {
+    border-color: chartreuse;
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 0 40px;
+    text-align: center;
+  }
+  
+  .promo-banner p {
+    margin: 0;
+    color: white;
+  }
+  
+  .promo-banner a {
+    color: rgb(244, 244, 237);
+    font-weight: bold;
+  }
+  
+  .carousel-container {
+    position: relative;
+    height: 600px;
+  }
+  .carousel-content {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 10;
+  }
+  .carousel-content p{
+    font-size: 14px;
+  }
+
+  .carousel-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  .carousel-content a {
+    color: white;
+  
+  }
+  .link-button {
+    text-decoration: none; 
+    color: inherit; 
+    cursor: pointer;
+    transition: color 0.3s ease, text-decoration 0.3s ease; 
+  }
+  .carousel-item img{
+    height: 600px;
+    max-width: 100%;
+  }
+  .link-button:hover {
+    text-decoration: underline; 
+    color: #faf5f5;
+  }
+  
+  
+ 
+
+.carousel-content h2 {
+  font-weight: bold;
+  font-size: 2rem; 
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  display: block; 
+  width: 100%; 
+}
+
+  
+.carousel-content p {
+  font-weight: lighter; 
+  font-size: 1.25rem;
+  text-align: center;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  display: block; 
+  width: 100%; 
+}
+.carousel-container img {
+  border: 5px solid rgb(46, 45, 45); 
+  box-sizing: border-box; 
+}
+
+
+.footer {
+  padding: 10px ;
+  background-color: #121111; /* Dark background */
+  color: #fff; /* Light text */
+}
+
+.footer h5 {
+  font-size: 1.0rem;
+  margin-bottom: 1rem;
+  color: #ccc; /* Grey color for headings */
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+  gap: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+  font-size: small;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #fff; /* White text for links */
+  font-weight: lighter; /* Bold links */
+}
+
+.footer-links li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #444; /* Top border for separation */
+  padding-top: 10px;
+}
+
+.footer-legal {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-legal li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-legal li a {
+  color: #fff; /* White text for legal links */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-legal li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom p {
+  margin: 5px 0;
+}
+
+.footer-links li {
+  padding: 0.3rem 0;
+}
+
+.footer-motto {
+  font-weight: bold;
+  font-size: small;
+  color: green;
+  margin-bottom: 0; /* To ensure the text stays on one line */
+}
+
+.footer-bottom {
+  padding: 10px 0; /* Minimal padding for the row */
+  font-size: 10px; /* Small font size */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Ensure left alignment */
+  align-items: center;
+}
+
+.footer-bottom p, .footer-legal li {
+  margin: 0;
+  padding-right: 40px;
+}
+
+.footer-legal {
+  list-style: none;
+  padding-left: 20px;
+  margin:  15px  ; /* Slight margin between legal links and location */
+  display: inline-flex;
+  gap: 15px; /* Control spacing between links */
+}
+
+.footer-legal li::after {
+  content:  " | " ;
+ 
+  color: #ccc; /* Light grey divider */
+}
+
+.footer-legal li:last-child::after {
+  content: ""; /* Remove divider after the last item */
+}
+
+.footer-legal li a {
+  font-weight: 100;   
+
+  text-decoration: none;
+  font-size: x-small;
+}
+
+.footer-location {
+  display: inline-block;
+  padding-left: 240px; /* Small spacing from the legal links */
+}
+.footer-location {
+  font-weight: bold; /* Makes the entire paragraph bold */
+}
+.footer-location a {
+  text-decoration: none; 
+  color: inherit; 
+  font-weight: normal;
+  cursor: pointer;
+  transition: color 0.3s ease, text-decoration 0.3s ease; 
+
+}
+.footer-location a:hover{
+  text-decoration: underline; 
+    color: #faf5f5;
+}
